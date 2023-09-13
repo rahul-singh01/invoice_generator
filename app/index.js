@@ -6,32 +6,16 @@ import { useNavigation } from '@react-navigation/native';
 // import {COLORS , icons } from "../constants";
 // import Icon from 'react-native-vector-icons/MaterialIcons';
 
-// import Login from "../components/authentication_page/Login"
-// import Sidebar from "../components/header/Sidebar"
-// import SidebarRight from "../components/header/SidebarRight";
 
 import { useState , useEffect , useRef } from "react";
-// import HomePage from "../components/Homepage"
-// import MovieDetails from "../components/pages/MovieDetails";
 
 import { Provider } from "react-redux";
 // import store from "../store/store";
 
 
 // trying navigation creation...
-import { NavigationContainer } from '@react-navigation/native';
-// import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';;
 import { createStackNavigator } from '@react-navigation/stack';
-
-// import ServerPage from "../components/pages/ServerPage";
-// import MoviePlayer from "../components/pages/MoviePlayer";
-// import MovieTilesPage from "../components/pages/MovieTilesPage";
-// import Myaccount from "../components/useraccount/Myaccount";
-// import RequestsPage from "../components/useraccount/RequestsPage";
-// import ChangePassword from "../components/useraccount/ChangePassword";
-// import LiveTvPage from "../components/pages/LiveTvPage";
-// import SearchBar from "../components/pages/SearchBar";
-// import DisplayTile from "../components/pages/DisplayTile";
 
 
 import Authentication from "../components/authentication/Authentication";
